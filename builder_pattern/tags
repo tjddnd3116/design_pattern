@@ -4,9 +4,22 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Builder	main.cpp	/^class Builder {$/;"	c	file:
 CXX	Makefile	/^CXX = c++$/;"	m
 CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+ComplexObject	main.cpp	/^		ComplexObject(int param1, int param2, std::string param3, std::string param4)$/;"	f	class:ComplexObject
+ComplexObject	main.cpp	/^class ComplexObject {$/;"	c	file:
+ConcreteBuilder	main.cpp	/^		ConcreteBuilder() : obj(0, 0, "", "")$/;"	f	class:ConcreteBuilder
+ConcreteBuilder	main.cpp	/^class ConcreteBuilder : public Builder {$/;"	c	file:
+Director	main.cpp	/^class Director {$/;"	c	file:
 NAME	Makefile	/^NAME = a.out$/;"	m
 OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
 SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+construct	main.cpp	/^		void construct(Builder* builder)$/;"	f	class:Director
+description	main.cpp	/^		std::string description;$/;"	m	class:ComplexObject	file:
+display	main.cpp	/^		void display()$/;"	f	class:ComplexObject
 main	main.cpp	/^int main(void)$/;"	f
+obj	main.cpp	/^		ComplexObject obj;$/;"	m	class:ConcreteBuilder	file:
+position	main.cpp	/^		int position;$/;"	m	class:ComplexObject	file:
+subject	main.cpp	/^		std::string subject;$/;"	m	class:ComplexObject	file:
+value	main.cpp	/^		int value;$/;"	m	class:ComplexObject	file:
