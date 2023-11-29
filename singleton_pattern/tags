@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Animal	Animal.cpp	/^Animal::Animal()$/;"	f	class:Animal
+Animal	Animal.hpp	/^class Animal$/;"	c
+Animal_hpp	Animal.hpp	/^#define Animal_hpp$/;"	d
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp\\$/;"	m
+Singleton	Singleton.hpp	/^			Singleton() {};$/;"	f	class:Singleton
+Singleton	Singleton.hpp	/^class Singleton$/;"	c
+Singleton_hpp	Singleton.hpp	/^#define Singleton_hpp$/;"	d
+cnt	Singleton.hpp	/^			int cnt = 0;$/;"	m	class:Singleton
+getInstance	Singleton.cpp	/^Singleton& Singleton::getInstance()$/;"	f	class:Singleton
+main	main.cpp	/^int main(void)$/;"	f
+otherFunc	main.cpp	/^void otherFunc()$/;"	f
+show	Animal.cpp	/^void Animal::show()$/;"	f	class:Animal
+show	Singleton.cpp	/^void Singleton::show()$/;"	f	class:Singleton

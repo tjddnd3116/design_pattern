@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+ConcreteCreatorA	main.cpp	/^class ConcreteCreatorA : public Creator {$/;"	c	file:
+ConcreteCreatorB	main.cpp	/^class ConcreteCreatorB : public Creator {$/;"	c	file:
+ConcreteProductA	main.cpp	/^class ConcreteProductA : public Product {$/;"	c	file:
+ConcreteProductB	main.cpp	/^class ConcreteProductB : public Product {$/;"	c	file:
+Creator	main.cpp	/^class Creator {$/;"	c	file:
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+Product	main.cpp	/^class Product {$/;"	c	file:
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+main	main.cpp	/^int main(void)$/;"	f

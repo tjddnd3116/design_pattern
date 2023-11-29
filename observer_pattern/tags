@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+ConcreteObserver	main.cpp	/^class ConcreteObserver {$/;"	c	file:
+ConcreteSubject	main.cpp	/^class ConcreteSubject {$/;"	c	file:
+CreateMessage	main.cpp	/^		void CreateMessage(std::string message = "EmptyMsg") {$/;"	f	class:Subject
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+Observer	main.cpp	/^		Observer(Subject& subject) : subject_(subject) {$/;"	f	class:Observer
+Observer	main.cpp	/^class Observer : public ConcreteObserver {$/;"	c	file:
+PrintInfo	main.cpp	/^		void PrintInfo() {$/;"	f	class:Observer
+RemoveMeFromTheList	main.cpp	/^		void RemoveMeFromTheList() {$/;"	f	class:Observer
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+Subject	main.cpp	/^class Subject : public ConcreteSubject {$/;"	c	file:
+cnt_for_id	main.cpp	/^		static int cnt_for_id;$/;"	m	class:Observer	file:
+cnt_for_id	main.cpp	/^int Observer::cnt_for_id = 0;$/;"	m	class:Observer	file:
+id	main.cpp	/^		int id;$/;"	m	class:Observer	file:
+list_observer_	main.cpp	/^		std::list<ConcreteObserver*> list_observer_;$/;"	m	class:Subject	file:
+main	main.cpp	/^int main(void)$/;"	f
+message_	main.cpp	/^		std::string message_;$/;"	m	class:Subject	file:
+message_from_subject_	main.cpp	/^		std::string message_from_subject_;$/;"	m	class:Observer	file:
+subject_	main.cpp	/^		Subject& subject_;$/;"	m	class:Observer	file:
+~ConcreteObserver	main.cpp	/^		virtual ~ConcreteObserver() {};$/;"	f	class:ConcreteObserver
+~ConcreteSubject	main.cpp	/^		virtual ~ConcreteSubject() {};$/;"	f	class:ConcreteSubject
+~Observer	main.cpp	/^		virtual ~Observer() {$/;"	f	class:Observer
+~Subject	main.cpp	/^		virtual ~Subject() {$/;"	f	class:Subject
