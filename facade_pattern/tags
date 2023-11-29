@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++98$/;"	m
+ClientCode	main.cpp	/^void ClientCode(Facade* facade) {$/;"	f
+Facade	main.cpp	/^	Facade(Subsystem1* subsystem1 = nullptr, Subsystem2* subsystem2 = nullptr) {$/;"	f	class:Facade
+Facade	main.cpp	/^class Facade {$/;"	c	file:
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+Subsystem1	main.cpp	/^class Subsystem1 {$/;"	c	file:
+Subsystem2	main.cpp	/^class Subsystem2 {$/;"	c	file:
+main	main.cpp	/^int main(void)$/;"	f
+operation	main.cpp	/^	std::string operation() {$/;"	f	class:Facade
+operation1	main.cpp	/^	std::string operation1() {$/;"	f	class:Subsystem1
+operation1	main.cpp	/^	std::string operation1() {$/;"	f	class:Subsystem2
+operationN	main.cpp	/^	std::string operationN() {$/;"	f	class:Subsystem1
+operationZ	main.cpp	/^	std::string operationZ() {$/;"	f	class:Subsystem2
+subsystem1_	main.cpp	/^	Subsystem1* subsystem1_;$/;"	m	class:Facade	file:
+subsystem2_	main.cpp	/^	Subsystem2* subsystem2_;$/;"	m	class:Facade	file:
+~Facade	main.cpp	/^	~Facade() {$/;"	f	class:Facade
