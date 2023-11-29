@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddCarToPoliceDatabase	main.cpp	/^void AddCarToPoliceDatabase($/;"	f
+CXX	Makefile	/^CXX = c++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -Wextra -Werror -std=c++11$/;"	m
+Flyweight	main.cpp	/^    Flyweight(const Flyweight &other) : shared_state_(new SharedState(*other.shared_state_))$/;"	f	class:Flyweight
+Flyweight	main.cpp	/^    Flyweight(const SharedState *shared_state) : shared_state_(new SharedState(*shared_state))$/;"	f	class:Flyweight
+Flyweight	main.cpp	/^class Flyweight$/;"	c	file:
+FlyweightFactory	main.cpp	/^    FlyweightFactory(std::initializer_list<SharedState> share_states)$/;"	f	class:FlyweightFactory
+FlyweightFactory	main.cpp	/^class FlyweightFactory$/;"	c	file:
+GetFlyweight	main.cpp	/^    Flyweight GetFlyweight(const SharedState &shared_state)$/;"	f	class:FlyweightFactory
+GetKey	main.cpp	/^    std::string GetKey(const SharedState &ss) const$/;"	f	class:FlyweightFactory	file:
+ListFlyweights	main.cpp	/^    void ListFlyweights() const$/;"	f	class:FlyweightFactory
+NAME	Makefile	/^NAME = a.out$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+Operation	main.cpp	/^    void Operation(const UniqueState &unique_state) const$/;"	f	class:Flyweight
+SRCS	Makefile	/^SRCS = main.cpp$/;"	m
+SharedState	main.cpp	/^    SharedState(const std::string &brand, const std::string &model, const std::string &color)$/;"	f	struct:SharedState
+SharedState	main.cpp	/^struct SharedState$/;"	s	file:
+UniqueState	main.cpp	/^    UniqueState(const std::string &owner, const std::string &plates)$/;"	f	struct:UniqueState
+UniqueState	main.cpp	/^struct UniqueState$/;"	s	file:
+brand_	main.cpp	/^    std::string brand_;$/;"	m	struct:SharedState	file:
+color_	main.cpp	/^    std::string color_;$/;"	m	struct:SharedState	file:
+flyweights_	main.cpp	/^    std::unordered_map<std::string, Flyweight> flyweights_;$/;"	m	class:FlyweightFactory	file:
+main	main.cpp	/^int main()$/;"	f
+model_	main.cpp	/^    std::string model_;$/;"	m	struct:SharedState	file:
+operator <<	main.cpp	/^    friend std::ostream &operator<<(std::ostream &os, const SharedState &ss)$/;"	f	struct:SharedState
+operator <<	main.cpp	/^    friend std::ostream &operator<<(std::ostream &os, const UniqueState &us)$/;"	f	struct:UniqueState
+owner_	main.cpp	/^    std::string owner_;$/;"	m	struct:UniqueState	file:
+plates_	main.cpp	/^    std::string plates_;$/;"	m	struct:UniqueState	file:
+shared_state	main.cpp	/^    SharedState *shared_state() const$/;"	f	class:Flyweight
+shared_state_	main.cpp	/^    SharedState *shared_state_;$/;"	m	class:Flyweight	file:
+~Flyweight	main.cpp	/^    ~Flyweight()$/;"	f	class:Flyweight
